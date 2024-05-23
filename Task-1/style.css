@@ -1,0 +1,81 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #4a90e2, #50c878);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section styles */
+section {
+    margin: 40px 0;
+    background: #e9f5f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #4a90e2;
+}
+
+/* Team members styles */
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    flex: 0 0 calc(25% - 20px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.details {
+    text-align: left;
+    padding-left: 20px;
+}
